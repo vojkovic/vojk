@@ -1,0 +1,26 @@
+{{ with .Site.Params.social }}
+<ul>
+  {{ range sort . "weight" }}
+    {{ if eq .name "Mail"}}
+      <li>
+        <a href="/mail" aria-label="{{ .name }}" id="address" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
+          <i class="{{ .icon }}" aria-hidden="true"></i>
+          <script>const d="cspdlAwpkl/bv".split("").map(c=>String.fromCharCode(c.charCodeAt(0)-1)).join("");document.getElementById("address").href="mailto:"+d</script>
+        </a>
+      </li>
+    {{ else }}
+      {{ if .icon }}
+        <li>
+          <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }} {{ if .type }}type="{{ .type }}"{{ end }}>
+            <i class="{{ .icon }}" aria-hidden="true"></i>
+          </a>
+        </li>
+      {{ else }}
+        <li>
+          <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }}>{{ .name }}</a>
+        </li>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</ul>
+{{ end }}

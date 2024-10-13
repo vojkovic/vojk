@@ -1,0 +1,85 @@
+baseURL = "https://vojk.au"
+title = "Brock Vojkovic"
+theme = "hugo-coder"
+languageCode = 'en-us'
+defaultContentLanguage = "en"
+paginate = 20
+enableEmoji = true
+
+[markup.highlight]
+noClasses = false
+
+[params.author]
+name = "Brock Vojkovic"
+
+[params]
+license = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+description = "Brock Vojkovic's personal website"
+favicon_32 = "favicon-32x32.png"
+favicon_16 = "favicon-16x16.png"
+keywords = "blog,developer,personal"
+info = ["Devops Engineer · Security Researcher"]
+avatarURL = "img/avatar.jpeg"
+dateform        = "Jan 2, 2006"
+dateformShort   = "Jan 2"
+dateformNum     = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
+since = 2024
+# Git Commit in Footer, uncomment the line below to enable it
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+
+# Specify light/dark colorscheme
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+
+[taxonomies]
+  tag = "tags"
+
+[[menu.main]]
+  name = "About"
+  url = "about/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "AS44354"
+  url = "https://as44354.net"
+  weight = 3
+
+[[menu.main]]
+  name       = "Search"
+  url        = "https://priv.au"
+  weight = 4
+
+[[menu.main]]
+  name       = "Chef"
+  url        = "https://chef.priv.au"
+  weight = 5
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github-square"
+weight = 1
+url = "https://github.com/vojkovic/"
+
+
+[[params.social]]
+name = "Mail"
+icon = "fa fa-envelope-square fa-regular fa-2x"
+weight = 4
+url = "/mail"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin-square"
+weight = 2
+url = "https://www.linkedin.com/in/brockvojkovic/"
+
+
