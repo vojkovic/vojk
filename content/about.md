@@ -14,5 +14,5 @@ A little about me:
 - 📬 You can also reach me via [matrix](https://matrix.to/#/@vojkovic:matrix.org) if that's your thing. I try my best to be available.
 - 🔑 To send me encrypted mail, here is my [PGP key](https://keys.openpgp.org/search?q=brockv%40tuta.io). I also use this key to sign my Git commits.
 
-If you're interested in reading my random gibberish, check out my [posts](/posts).
+If you're interested in reading my random gibberish, check out my [posts](/posts/).
 

@@ -40,12 +40,12 @@ maxSeeAlsoItems = 5
 
 [[menu.main]]
   name = "About"
-  url = "about/"
+  url = "/about/"
   weight = 1
 
 [[menu.main]]
   name = "Posts"
-  url = "posts/"
+  url = "/posts/"
   weight = 2
 
 [[menu.main]]
@@ -67,19 +67,19 @@ maxSeeAlsoItems = 5
 name = "Github"
 icon = "fa fa-2x fa-github-square"
 weight = 1
-url = "https://github.com/vojkovic/"
+url = "https://github.com/vojkovic"
 
 
 [[params.social]]
 name = "Mail"
 icon = "fa fa-envelope-square fa-regular fa-2x"
 weight = 4
-url = "/mail"
+url = "/mail/"
 
 [[params.social]]
 name = "LinkedIn"
 icon = "fa fa-2x fa-linkedin-square"
 weight = 2
-url = "https://www.linkedin.com/in/brockvojkovic/"
+url = "https://www.linkedin.com/in/brockvojkovic"
 
 
