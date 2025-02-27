@@ -71,6 +71,8 @@ protocol bgp vultr {
 If you're wondering how the link-local address is made, take the second half of the IPv6 address that Vultr has assigned to you (it will contain ff:fe in the middle) and append it to `fe80::`.
 i.e. `fe80::5400:5ff:fe10:3e85` is the link-local address for `2401:c080:1400:616a:5400:5ff:fe10:3e85`.
 
+You will also need to add the static route to `2001:19f0:ffff::1/128` as mentioned earlier. This is because Vultr expects you to have a static route to their BGP server because they use multihop.
+
 Also make sure that you have set up the dummy interface in `/etc/network/interfaces`:
 
 ```bash
@@ -82,6 +84,7 @@ post-up /sbin/ip -6 addr add 2a14:7c0:4b10::1/44 dev dummy1
 post-up /sbin/ip -6 route add local 2a14:7c0:4b10::/44 dev lo
 post-up /sbin/ip -6 addr add 2a14:7c0:4b00::1/44 dev dummy1
 post-up /sbin/ip -6 route add local 2a14:7c0:4b00::/44 dev lo
+post-up /sbin/ip -6 route add 2001:19f0:ffff::1/128 via fe80::5400:5ff:fe10:3e85 dev eth0 src 2401:c080:1400:616a:5400:5ff:fe10:3e85
 ```
 
 Then restart your networking service.
@@ -102,6 +105,7 @@ ExecStart=/sbin/ip -6 addr add 2a14:7c0:4b10::1/44 dev dummy1
 ExecStart=/sbin/ip -6 route add local 2a14:7c0:4b10::/44 dev lo
 ExecStart=/sbin/ip -6 addr add 2a14:7c0:4b00::1/44 dev dummy1
 ExecStart=/sbin/ip -6 route add local 2a14:7c0:4b00::/44 dev lo
+ExecStart=/sbin/ip -6 route add 2001:19f0:ffff::1/128 via fe80::5400:5ff:fe10:3e85 dev eth0 src 2401:c080:1400:616a:5400:5ff:fe10:3e85
 
 [Install]
 WantedBy=multi-user.target
