@@ -115,6 +115,13 @@ After creating the file, reload systemd with `systemctl daemon-reload` and enabl
 
 Now, you can start BIRD and check the logs to see if everything is working. If you're having trouble, you can check the status of the BGP session with `birdc s p all`. If it says `Established`, then you're all good.
 
+You can also check that your prefixes are being announced on the internet using some websites that observe BGP data:
+- [Hurricane Electric's BGP Toolkit](https://bgp.he.net/) (Sometimes is slow to update things like IRR data)
+- [BGP Tools](https://bgp.tools/) (Currently my favorite)
+
+And also for checking that you setup your IRR data correctly, the IRR Explorer gives some really good insights:
+- [IRR Explorer](https://irrexplorer.nlnog.net/)
+
 Some common issues that you might run into are:
 - Port 179 blocked by firewall: Ensure that your firewall allows inbound and outbound traffic on TCP port 179 for BGP.
 - Dummy interface setup issues: Verify the dummy interface is properly created and assigned the correct addresses.
