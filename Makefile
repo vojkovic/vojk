@@ -8,4 +8,4 @@ build:
 
 docker:
 	docker build -t vojk .
-	docker run -p 8080:8080 vojk
+	docker run -p 127.0.0.1:8080:8080 vojk

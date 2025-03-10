@@ -3,7 +3,6 @@ title = "Brock Vojkovic"
 theme = "hugo-coder"
 languageCode = 'en-us'
 defaultContentLanguage = "en"
-paginate = 20
 enableEmoji = true
 
 [markup.highlight]
