@@ -1,4 +1,4 @@
-FROM klakegg/hugo:latest as builder
+FROM klakegg/hugo:latest AS builder
 
 WORKDIR /src
 
