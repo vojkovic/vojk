@@ -14,4 +14,4 @@ A little about me:
 - 🔑 To send me encrypted mail, here is my [PGP key](https://keys.openpgp.org/search?q=brockv%40tuta.io). I also use this key to sign my Git commits.
 
 A fun fact:
-- [Did you know you can host a website on a reverse DNS domain?](http://b.4.0.c.7.0.4.1.a.2.ip6.arpa)
+- [Did you know you can host a website on a reverse DNS domain?](https://b.4.0.c.7.0.4.1.a.2.ip6.arpa)
