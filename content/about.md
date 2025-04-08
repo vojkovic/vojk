@@ -13,8 +13,5 @@ A little about me:
 - 📬 You can also reach me via [matrix](https://matrix.to/#/@vojkovic:matrix.org) if that's your thing. I try my best to be available.
 - 🔑 To send me encrypted mail, here is my [PGP key](https://keys.openpgp.org/search?q=brockv%40tuta.io). I also use this key to sign my Git commits.
 
-A little about you:
-
-```bash
-curl you.b.4.0.c.7.0.4.1.a.2.ip6.arpa
-```
+A fun fact:
+- [Did you know you can host a website on a reverse DNS domain?](http://b.4.0.c.7.0.4.1.a.2.ip6.arpa)
