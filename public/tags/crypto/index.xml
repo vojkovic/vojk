@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crypto on Brock Vojkovic</title>
+    <link>http://localhost:1313/tags/crypto/</link>
+    <description>Recent content in Crypto on Brock Vojkovic</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tor Vanity Addresses</title>
+      <link>http://localhost:1313/posts/tor_vanity_addresses/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tor_vanity_addresses/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Originally written in October 2023, but unpublished until August 2024. This post discusses Tor v3 address, without mention of any legacy formats.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-is-a-tor-address&#34;&gt;&#xA;  What is a Tor address?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#what-is-a-tor-address&#34;&gt;&#xA;    &lt;i class=&#34;fa fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;A reason the Tor Network is so resistant to censorship stems from its inherently decentralised architecture. Unlike a traditional DNS which has a centralised governance structure with organisations like ICANN having a say in the domain name allocation process, Tor&amp;rsquo;s decentralised nature means there&amp;rsquo;s no single authority governing the issuance of onion addresses. But if there&amp;rsquo;s no authority, how are Tor addresses created?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
