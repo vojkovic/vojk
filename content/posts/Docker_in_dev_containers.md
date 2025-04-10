@@ -1,13 +1,8 @@
-+++
-authors = ["Brock Vojkovic"]
-title = "Docker in dev containers"
-date = "2025-03-10"
-tags = [
-    "docker",
-    "github",
-    "containers",
-]
-+++
+---
+title: "Docker in dev containers"
+date: "2025-03-10"
+authors: ["Brock Vojkovic"]
+tags: ["docker", "github", "containers"]
 ---
 
 Recently, I needed to use docker in a dev container for testing the docker build of [SearXNG](https://github.com/searxng/searxng/pull/4475). I was surprised to find that the Docker CLI was not running in the dev container. I had to do some digging to figure out how to get it running. 

@@ -1,14 +1,9 @@
-+++
-authors = ["Brock Vojkovic"]
-title = "Tor Vanity Addresses"
-date = "2024-08-27"
-math = true
-tags = [
-    "tor",
-    "crypto",
-    "web",
-]
-+++
+---
+title: "Tor Vanity Addresses"
+date: "2024-08-27"
+authors: ["Brock Vojkovic"]
+math: true
+tags: ["tor", "crypto", "web"]
 ---
 
 *Originally written in October 2023, but unpublished until August 2024. This post discusses Tor v3 address, without mention of any legacy formats.*

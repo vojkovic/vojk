@@ -1,15 +1,9 @@
-+++
-authors = ["Brock Vojkovic"]
-title = "BGP with Vultr"
-date = "2024-10-13"
-tags = [
-    "networking",
-    "bgp",
-]
-+++
 ---
-
-# Introduction
+title: "BGP with Vultr"
+date: "2024-10-13"
+authors: ["Brock Vojkovic"]
+tags: ["networking", "bgp"]
+---
 
 This post covers how to set up a BGP session with Vultr using BIRD 2. I found that the official Vultr documentation was somewhat lacking in this area, and mostly just covered BIRD 1 and didn't cover the IPv6 side of things. Vultr is a great provider for BGP because they offer it for free with any VPS, and it's where a lot of people get their start with BGP.
 

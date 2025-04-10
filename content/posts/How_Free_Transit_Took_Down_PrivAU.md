@@ -1,16 +1,11 @@
-+++
-authors = ["Brock Vojkovic"]
-title = "How Free Transit Took Down My Website"
-date = "2024-11-01"
-tags = [
-    "networking",
-    "bgp",
-]
-+++
+---
+title: "How Free Transit Took Down My Website"
+date: "2024-11-14"
+authors: ["Brock Vojkovic"]
+tags: ["networking", "bgp"]
+---
 
 *This event and article was written in November 2024 but published in April 2025.*
-
-# How Free Transit Took Down My Website
 
 I run a small anycast network for [priv.au](https://priv.au), a metasearch engine. This network consists of several servers strategically placed around the world, connected to different Internet Exchange Points (IXPs) and transit providers.
 

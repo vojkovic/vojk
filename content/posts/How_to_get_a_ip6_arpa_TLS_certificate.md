@@ -1,7 +1,7 @@
 ---
 title: "How to get a .ip6.arpa TLS certificate for $0"
-date: 2025-04-10
-draft: false
+date: "2025-04-10"
+authors: ["Brock Vojkovic"]
 tags: ["networking", "security"]
 ---
 
