@@ -6,8 +6,15 @@
     <description>Recent content on Brock Vojkovic</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to get a .ip6.arpa TLS certificate for $0</title>
+      <link>http://localhost:1313/posts/how_to_get_a_ip6_arpa_tls_certificate/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how_to_get_a_ip6_arpa_tls_certificate/</guid>
+      <description>&lt;p&gt;ARPA (Address and Routing Parameter Area) domains are a core component of internet infrastructure, primarily used for reverse DNS resolution (like in-addr.arpa and ip6.arpa). While it is unusual, you can host a website on a reverse DNS domain (see &lt;a href=&#34;https://b.4.0.c.7.0.4.1.a.2.ip6.arpa/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this website&lt;/a&gt;). However, most Certificate Authorities (CAs) won&amp;rsquo;t issue certificates for ARPA domains, so how do we get one?&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;ve researched this topic, you might have found this &lt;a href=&#34;https://web.archive.org/web/20250330063527/https://0.0.0.1.4.7.4.0.1.a.2.ip6.arpa/@caramel/statuses/01JJVVB2V6YKF2Y0HHPQ35KN31&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;post suggesting to pay Cloudflare $120/year&lt;/a&gt;, but I&amp;rsquo;m stubborn and won&amp;rsquo;t pay for a TLS certificate in the year 2025 (at least not for a three-month validity!).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Docker in dev containers</title>
       <link>http://localhost:1313/posts/docker_in_dev_containers/</link>
