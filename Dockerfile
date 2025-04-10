@@ -1,8 +1,8 @@
-FROM klakegg/hugo:latest AS builder
+FROM ghcr.io/hugomods/hugo:nightly-non-root AS builder
 
 WORKDIR /src
 
-COPY . .
+COPY --chown=hugo:hugo . .
 
 RUN hugo --gc --minify
 
