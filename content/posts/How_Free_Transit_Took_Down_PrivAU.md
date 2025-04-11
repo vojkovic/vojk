@@ -41,7 +41,7 @@ The VPS's resources were completely overwhelmed - I had inadvertently turned my 
 
 The first step was immediate action. I shut down the BGP session with HE on the VPS to stop the flood of traffic. So, how did I fix it?
 
-Well, there are a few ways to fix it. By far the easiest is to use AS_PATH prepending. This is a technique where you artificially lengthen the AS_PATH by repeating your AS number multiple times, making that route less attractive to other networks. For example, AS1 could prepend their AS number to the AS_PATH like this: AS1 -> AS1 → AS5 → AS7. By repeating their AS number twice, it makes the route less attractive to other networks.
+Well, there are a few ways to fix it. By far the easiest is to use AS_PATH prepending. This is a technique where you artificially lengthen the AS_PATH by repeating your AS number multiple times, making that route less attractive to other networks. For example, AS1 could prepend their AS number to the AS_PATH like this: AS1 -> AS1 -> AS5 -> AS7. By repeating their AS number twice, it makes the route less attractive to other networks.
 
 The alternative is to use BGP communities, which makes the upstream provider make routing decisions based on the community value. For example, some providers will only advertise routes with a specific community value to networks in North America or a specific region, which would be another way to control the traffic. However, rather infamously, Hurricane Electric does not support BGP communities for free transit. Actually, I think they're one of the only major providers that charges their customers extra to use control communities.
 
