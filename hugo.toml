@@ -17,7 +17,7 @@ description = "Brock Vojkovic's personal website"
 favicon_32 = "favicon-32x32.png"
 favicon_16 = "favicon-16x16.png"
 keywords = "blog,developer,personal"
-info = ["Network Engineer"]
+info = ["Internet Infrastructure Engineer"]
 avatarURL = "img/avatar.webp"
 dateform        = "Jan 2, 2006"
 dateformShort   = "Jan 2"
@@ -64,20 +64,20 @@ maxSeeAlsoItems = 5
 
 [[params.social]]
 name = "Github"
-icon = "fa fa-2x fa-github-square"
+icon = "fa fa-2x fa-github"
 weight = 1
 url = "https://github.com/vojkovic"
 
 
 [[params.social]]
 name = "Mail"
-icon = "fa fa-envelope-square fa-regular fa-2x"
+icon = "fa fa-2x fa-inbox"
 weight = 4
 url = "/mail/"
 
 [[params.social]]
 name = "LinkedIn"
-icon = "fa fa-2x fa-linkedin-square"
+icon = "fa fa-2x fa-linkedin"
 weight = 2
 url = "https://www.linkedin.com/in/brockvojkovic"
 
