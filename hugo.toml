@@ -13,7 +13,7 @@ name = "Brock Vojkovic"
 
 [params]
 license = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-description = "Brock Vojkovic's personal website"
+description = "Brock Vojkovic - Network engineer based in Australia. Writing about networking, infrastructure, and homelab projects."
 favicon_32 = "favicon-32x32.png"
 favicon_16 = "favicon-16x16.png"
 keywords = "blog,developer,personal"
@@ -25,7 +25,7 @@ dateformNum     = "2006-01-02"
 dateformNumTime = "2006-01-02 15:04"
 since = 2021
 # Git Commit in Footer, uncomment the line below to enable it
-commit = "https://github.com/luizdepra/hugo-coder/tree/"
+commit = "https://github.com/vojkovic/vojk"
 
 # Specify light/dark colorscheme
 colorScheme = "auto"
@@ -51,16 +51,6 @@ maxSeeAlsoItems = 5
   name = "AS44354"
   url = "https://as44354.net"
   weight = 3
-
-[[menu.main]]
-  name       = "Search"
-  url        = "https://priv.au"
-  weight = 4
-
-[[menu.main]]
-  name       = "Chef"
-  url        = "https://chef.priv.au"
-  weight = 5
 
 [[params.social]]
 name = "Github"
