@@ -1,6 +1,5 @@
 baseURL = "https://vojk.au"
 title = "Brock Vojkovic"
-theme = "hugo-coder"
 languageCode = 'en-us'
 defaultContentLanguage = "en"
 enableEmoji = true
