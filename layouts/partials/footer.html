@@ -8,7 +8,7 @@
     {{ with site.Params.author.name }} {{ . }} {{ end }}
     ·
     {{ if (and .Site.Params.license) }}
-      {{ i18n "licensed_under" }} {{ .Site.Params.license | safeHTML }}
+      Licensed under {{ .Site.Params.license | safeHTML }}
     {{ end }}
   </section>
 </footer>

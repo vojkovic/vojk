@@ -6,16 +6,11 @@
 <link rel="canonical" href="{{ .Permalink }}">
 {{ end }}
 
+<link rel="icon" type="image/png" href="{{ .Site.Params.favicon_32 | default "/images/favicon-32x32.png" | relURL }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ .Site.Params.favicon_16 | default "/images/favicon-16x16.png" | relURL }}" sizes="16x16">
+
 {{ partialCached "head/theme-styles.html" . }}
 
 {{ partialCached "head/color-scheme.html" . }}
 
-{{ partialCached "head/custom-styles.html" . }}
-
-{{ partialCached "head/custom-icons.html" . }}
-
 {{ partial "head/alternative-output-formats.html" . }}
-
-{{ if .IsHome }}{{ partial "head/hugo-generator.html" . }}{{ end }}
-
-{{ partial "head/extensions.html" . }}
