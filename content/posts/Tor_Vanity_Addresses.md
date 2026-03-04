@@ -6,7 +6,7 @@ math: true
 tags: ["tor", "crypto", "web"]
 ---
 
-*Originally written in October 2023, but unpublished until August 2024. This post discusses Tor v3 address, without mention of any legacy formats.*
+>  Originally written in October 2023, but unpublished until August 2024. This post discusses Tor v3 address, without mention of any legacy formats.
 
 # What is a Tor address?
 

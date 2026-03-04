@@ -5,7 +5,6 @@ authors: ["Brock Vojkovic"]
 tags: ["networking", "security"]
 ---
 
-> **Notice
 > As of March 2026, this method has stopped working - Cloudflare have disabled issuing SSL certificates for `.arpa` domains.
 
 
