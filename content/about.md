@@ -13,4 +13,4 @@ About me:
 - 📡 I’m also an amateur radio operator [VK6PKT](https://www.qrz.com/db/VK6PKT) - my interests are mainly in packet radio.
 - 📬 You can also reach me via [matrix](https://matrix.to/#/@vojkovic:matrix.org); I do my best to be responsive.
 
-[Did you know you can host a website on a reverse DNS domain?](http://b.4.0.c.7.0.4.1.a.2.ip6.arpa)
+[Did you know you can host a website on a reverse DNS domain?](https://b.4.0.c.7.0.4.1.a.2.ip6.arpa)

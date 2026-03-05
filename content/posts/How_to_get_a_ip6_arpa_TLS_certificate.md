@@ -5,10 +5,10 @@ authors: ["Brock Vojkovic"]
 tags: ["networking", "security"]
 ---
 
-> As of March 2026, this method has stopped working - Cloudflare have disabled issuing SSL certificates for `.arpa` domains.
+> As of March 2026, this method has stopped working - Cloudflare have disabled issuing SSL certificates for `.arpa` domains. For an updated approach that still works, see [Part 2](/posts/how_to_get_a_ip6_arpa_tls_certificate_part_2/).
 
 
-ARPA (Address and Routing Parameter Area) domains are a core component of internet infrastructure, primarily used for reverse DNS resolution (like in-addr.arpa and ip6.arpa). While it is unusual, you can host a website on a reverse DNS domain (see [this website](http://b.4.0.c.7.0.4.1.a.2.ip6.arpa/)). However, most Certificate Authorities (CAs) won't issue certificates for ARPA domains, so how do we get one?
+ARPA (Address and Routing Parameter Area) domains are a core component of internet infrastructure, primarily used for reverse DNS resolution (like in-addr.arpa and ip6.arpa). While it is unusual, you can host a website on a reverse DNS domain (see [this website](https://b.4.0.c.7.0.4.1.a.2.ip6.arpa/)). However, most Certificate Authorities (CAs) won't issue certificates for ARPA domains, so how do we get one?
 
 If you've researched this topic, you might have found this [post suggesting to pay Cloudflare $120/year](https://web.archive.org/web/20250330063527/https://0.0.0.1.4.7.4.0.1.a.2.ip6.arpa/@caramel/statuses/01JJVVB2V6YKF2Y0HHPQ35KN31), but I'm stubborn and won't pay for a TLS certificate in the year 2025 (at least not for a three-month validity!).
 
