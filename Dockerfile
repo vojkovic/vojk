@@ -6,9 +6,9 @@ COPY --chown=hugo:hugo . .
 
 RUN hugo --gc --minify
 
-FROM cgr.dev/chainguard/nginx:latest
+FROM nginx:alpine
 
-EXPOSE 8080
+EXPOSE 80
 
 COPY --from=builder /src/public /usr/share/nginx/html/
 
